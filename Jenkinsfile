@@ -1,10 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'M3'
-    }
-
     environment {
 		DOCKERHUB_CREDENTIALS = credentials('dock_cred')
 	
