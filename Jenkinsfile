@@ -14,7 +14,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'git_cred', url: 'https://github.com/jayadarshan2708/maven-devops.git'
+                git branch: 'main', credentialsId: 'git_cred', url: 'https://github.com/jayadarshan2708/test-master-pro.git'
             }
         }
 
